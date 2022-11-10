@@ -8,7 +8,7 @@ public class VucutKitleIndeks {
 		height=scn.nextDouble();
 		System.out.println("Kilonuzu kg cinsinden giriniz.");
 		weight=scn.nextDouble();
-		
+		//verilen formüle göre yapýlan hesaplama index deðiþkenine atanýyor.
 		index= weight/(height*height);
 		System.out.println("Vücut Kitle Ýndeksiniz:"+index);
 	}
