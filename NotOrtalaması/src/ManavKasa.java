@@ -4,23 +4,23 @@ public class ManavKasa {
 	public static void main(String[] args) {
 		Scanner scn=new Scanner(System.in);
 		
-		double armut,elma,domates,muz,patlican;
-		double toplamTutar;
+		double pear,apple,tomato,banana,eggplant;
+		double total;
 
 		System.out.println("Armut kaç kilo ? :");
-		armut=scn.nextDouble();
+		pear=scn.nextDouble();
 		System.out.println("Elma kaç kilo ? :");
-		elma=scn.nextDouble();
+		apple=scn.nextDouble();
 		System.out.println("Domates kaç kilo ? :");
-		domates=scn.nextDouble();
+		tomato=scn.nextDouble();
 		System.out.println("Muz kaç kilo ? :");
-		muz=scn.nextDouble();
+		banana=scn.nextDouble();
 		System.out.println("Patlýcan kaç kilo ? :");
-		patlican=scn.nextDouble();
+		eggplant=scn.nextDouble();
 		
-		toplamTutar=(armut*2.14)+(elma*3.67)+
-				(domates*1.11)+(muz*0.95)+(patlican*5);
-		System.out.println("Toplam ödenecek tutar :"+toplamTutar+"TL");
+		total=(pear*2.14)+(apple*3.67)+
+				(tomato*1.11)+(banana*0.95)+(eggplant*5);
+		System.out.println("Toplam ödenecek tutar :"+total+"TL");
 		
 				
 
